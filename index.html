@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PureBloom — натуральная косметика. Природа в каждой капле.">
+  <title>PureBloom — Главная</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <img src="public/images/logo.png" alt="" class="logo__img">
+        <span class="logo__text">Pure<em>Bloom</em></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Навигация">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link" data-page="home">Главная</a></li>
+          <li><a href="about.html" class="nav__link" data-page="about">О нас</a></li>
+          <li><a href="products.html" class="nav__link" data-page="products">Продукция</a></li>
+          <li><a href="production.html" class="nav__link" data-page="production">Производство</a></li>
+          <li><a href="brandbook.html" class="nav__link" data-page="brandbook">Брендбук</a></li>
+          <li><a href="contacts.html" class="nav__link" data-page="contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <img src="public/images/hero-image.jpg" alt="Цветущие полевые цветы" class="hero__image">
+        <div class="hero__overlay"></div>
+        <div class="hero__pattern" aria-hidden="true"></div>
+      </div>
+      <div class="container hero__content">
+        <p class="hero__label">Натуральная косметика</p>
+        <h1 class="hero__title">Природа в каждой капле</h1>
+        <p class="hero__subtitle">Создаём уход за кожей из органических ингредиентов, собранных вручную на экологически чистых плантациях</p>
+        <div class="hero__actions">
+          <a href="#values" class="btn btn--primary">Наши ценности</a>
+          <a href="products.html" class="btn btn--outline">Продукция</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="values" id="values">
+      <div class="container">
+        <div class="values__grid">
+          <article class="value-card">
+            <div class="value-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 6C24 6 10 16 10 28C10 34 16 40 24 40C32 40 38 34 38 28C38 16 24 6 24 6Z" stroke="currentColor" stroke-width="2"/><path d="M24 14V34M16 22C16 22 20 19 24 22C28 19 32 22 32 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="value-card__title">Органические ингредиенты</h3>
+            <p class="value-card__text">Только сертифицированное сырьё без пестицидов, ГМО и синтетических добавок.</p>
+          </article>
+          <article class="value-card">
+            <div class="value-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"/><path d="M24 14V24L30 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="value-card__title">Ручная работа</h3>
+            <p class="value-card__text">Каждая партия создаётся мастерами вручную с вниманием к деталям.</p>
+          </article>
+          <article class="value-card">
+            <div class="value-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="10" y="16" width="28" height="24" rx="3" stroke="currentColor" stroke-width="2"/><path d="M18 16V12C18 10 20 8 24 8C28 8 30 10 30 12V16" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3 class="value-card__title">Экологичная упаковка</h3>
+            <p class="value-card__text">Биоразлагаемые материалы, переработанное стекло и минимум пластика.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="explore">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Разделы</span>
+          <h2 class="section__title">Узнайте больше о PureBloom</h2>
+        </div>
+        <div class="quick-links">
+          <a href="about.html" class="quick-link"><strong>О нас</strong><small>История и команда</small></a>
+          <a href="production.html" class="quick-link"><strong>Производство</strong><small>От поля до полки</small></a>
+          <a href="brandbook.html" class="quick-link"><strong>Брендбук</strong><small>Фирменный стиль</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Готовы попробовать натуральный уход?</h2>
+        <p>Ознакомьтесь с нашей линейкой продуктов или свяжитесь с нами</p>
+        <a href="products.html" class="btn btn--primary">Смотреть продукцию</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo"><span class="logo__text">Pure<em>Bloom</em></span></a>
+        <p>Натуральная косметика.<br>Природа в каждой капле.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Подвал">
+        <a href="about.html">О нас</a>
+        <a href="products.html">Продукция</a>
+        <a href="production.html">Производство</a>
+        <a href="brandbook.html">Брендбук</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="footer__social">
+        <a href="#" class="footer__social-link" aria-label="VK"><svg viewBox="0 0 24 24" fill="none"><path d="M3 7H6.5C7 12 9 14 11 14V7H14V11.5C16 9.5 17.5 7 17.5 7H21C21 7 18.5 12 16 13.5C18.5 15 21 19 21 19H17.5C17.5 19 15.5 15 14 13.5V19H11V7H3Z" fill="currentColor"/></svg></a>
+        <a href="#" class="footer__social-link" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="none"><path d="M22 4L2 11L9 13L11 20L14 15L19 19L22 4Z" stroke="currentColor" stroke-width="2"/></svg></a>
+        <a href="#" class="footer__social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/></svg></a>
+      </div>
+      <p class="footer__copy">&copy; 2025 PureBloom. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

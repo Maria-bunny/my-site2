@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PureBloom — Брендбук</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="brandbook">
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <img src="public/images/logo.png" alt="" class="logo__img">
+        <span class="logo__text">Pure<em>Bloom</em></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Навигация">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link" data-page="home">Главная</a></li>
+          <li><a href="about.html" class="nav__link" data-page="about">О нас</a></li>
+          <li><a href="products.html" class="nav__link" data-page="products">Продукция</a></li>
+          <li><a href="production.html" class="nav__link" data-page="production">Производство</a></li>
+          <li><a href="brandbook.html" class="nav__link" data-page="brandbook">Брендбук</a></li>
+          <li><a href="contacts.html" class="nav__link" data-page="contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-top">
+    <section class="section brandbook">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Фирменный стиль</span>
+          <h1 class="section__title">Брендбук</h1>
+          <p class="section__desc">Руководство по визуальной и вербальной идентичности бренда PureBloom</p>
+        </div>
+
+        <nav class="brandbook-nav" aria-label="Разделы брендбука">
+          <a href="#positioning" class="brandbook-nav__link">Позиционирование</a>
+          <a href="#logo" class="brandbook-nav__link">Логотип</a>
+          <a href="#colors" class="brandbook-nav__link">Цвета</a>
+          <a href="#typography" class="brandbook-nav__link">Типографика</a>
+          <a href="#voice" class="brandbook-nav__link">Голос бренда</a>
+          <a href="#application" class="brandbook-nav__link">Применение</a>
+        </nav>
+
+        <!-- Позиционирование -->
+        <article class="brandbook-section" id="positioning">
+          <h2 class="brandbook-section__title">Позиционирование бренда</h2>
+          <div class="brandbook-section__content">
+            <div class="positioning-grid">
+              <div class="brandbook__card positioning-card positioning-card--slogan">
+                <span class="positioning-card__label">Слоган</span>
+                <p class="positioning-card__value">Природа в каждой капле</p>
+              </div>
+              <div class="brandbook__card positioning-card">
+                <span class="positioning-card__label">Суть бренда</span>
+                <p>PureBloom — производитель натуральной косметики, который соединяет силу природы с ручным мастерством. Мы создаём честные продукты без компромиссов: органическое сырьё, прозрачный состав и забота об окружающей среде на каждом этапе.</p>
+              </div>
+              <div class="brandbook__card positioning-card">
+                <span class="positioning-card__label">Целевая аудитория</span>
+                <p>Женщины и мужчины 25–45 лет, ценящие осознанный потребительский выбор. Они заботятся о здоровье кожи, интересуются составом продуктов, предпочитают экологичные бренды и готовы инвестировать в качественный натуральный уход.</p>
+              </div>
+              <div class="brandbook__card positioning-card">
+                <span class="positioning-card__label">Архетип</span>
+                <p class="positioning-card__archetype">Заботливый + Искатель</p>
+                <p>Заботливый — мы оберегаем кожу и природу. Искатель — мы ищем лучшие ингредиенты и открываем силу растений. Вместе они формируют образ бренда, который вдохновляет на гармонию с собой и миром.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Логотип -->
+        <article class="brandbook-section" id="logo">
+          <h2 class="brandbook-section__title">Логотип</h2>
+          <div class="brandbook-section__content brandbook-section__content--split">
+            <div class="brandbook__card">
+              <h3>Описание</h3>
+              <p>Логотип PureBloom состоит из графического знака — стилизованного листа в круге — и словесной части. Лист символизирует рост, природу и чистоту; круг олицетворяет целостность и заботу.</p>
+              <p>Начертание <strong>Pure</strong> выполнено прямым шрифтом, <em>Bloom</em> — курсивом, подчёркивая мягкость и органичность бренда. Логотип всегда используется в фирменных зелёных тонах или в монохромном варианте.</p>
+              <ul class="brandbook-list">
+                <li>Минимальный размер знака: 32 px</li>
+                <li>Охранное поле: высота листа со всех сторон</li>
+                <li>Не искажать пропорции и не менять цвета</li>
+              </ul>
+            </div>
+            <div class="brandbook__card">
+              <div class="brandbook__logo-display brandbook__logo-display--large">
+                <img src="public/images/logo.png" alt="Логотип PureBloom">
+                <p class="brandbook__logo-text">Pure<em>Bloom</em></p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Цвета -->
+        <article class="brandbook-section" id="colors">
+          <h2 class="brandbook-section__title">Фирменная палитра</h2>
+          <div class="brandbook-section__content">
+            <div class="brandbook__card" style="margin-bottom: 24px;">
+              <p>Палитра PureBloom вдохновлена природой: утренней росой на листьях, тёплой землёй, цветущими лугами и чистым небом. Мягкие зелёные оттенки передают свежесть и органичность, бежевые и белые — чистоту, лёгкость и натуральность.</p>
+              <p>Основной зелёный используется для акцентов и кнопок, бежевый — для фоновых блоков, белый — как основа макетов.</p>
+            </div>
+            <img src="public/images/color-palette.jpg" alt="Фирменная палитра PureBloom" class="brandbook__palette-img">
+            <div class="brandbook__colors brandbook__colors--full">
+              <div class="color-swatch">
+                <div class="color-swatch__preview" style="background:#3D4F3A;"></div>
+                <div><span class="color-swatch__name">Deep Moss</span><br><span class="color-swatch__hex">#3D4F3A</span></div>
+              </div>
+              <div class="color-swatch">
+                <div class="color-swatch__preview" style="background:#5C7A56;"></div>
+                <div><span class="color-swatch__name">Forest Green</span><br><span class="color-swatch__hex">#5C7A56</span></div>
+              </div>
+              <div class="color-swatch">
+                <div class="color-swatch__preview" style="background:#A8C5A0;"></div>
+                <div><span class="color-swatch__name">Sage</span><br><span class="color-swatch__hex">#A8C5A0</span></div>
+              </div>
+              <div class="color-swatch">
+                <div class="color-swatch__preview" style="background:#E8F0E6;"></div>
+                <div><span class="color-swatch__name">Mist Green</span><br><span class="color-swatch__hex">#E8F0E6</span></div>
+              </div>
+              <div class="color-swatch">
+                <div class="color-swatch__preview" style="background:#F5F0E8;border:1px solid #E8DFD0;"></div>
+                <div><span class="color-swatch__name">Natural Beige</span><br><span class="color-swatch__hex">#F5F0E8</span></div>
+              </div>
+              <div class="color-swatch">
+                <div class="color-swatch__preview" style="background:#FAFAF7;border:1px solid #E8DFD0;"></div>
+                <div><span class="color-swatch__name">Pure White</span><br><span class="color-swatch__hex">#FAFAF7</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Типографика -->
+        <article class="brandbook-section" id="typography">
+          <h2 class="brandbook-section__title">Типографика</h2>
+          <div class="brandbook-section__content">
+            <div class="brandbook__grid">
+              <div class="brandbook__card">
+                <h3>Шрифты</h3>
+                <div class="brandbook__typography">
+                  <div>
+                    <span class="type-sample__label">Заголовки — Cormorant Garamond</span>
+                    <p class="type-sample__display">Природа в каждой капле</p>
+                  </div>
+                  <div>
+                    <span class="type-sample__label">Основной текст — Nunito Sans</span>
+                    <p class="type-sample__text">Натуральная косметика из органических ингредиентов, созданная с заботой о вашей коже и окружающей среде.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="brandbook__card">
+                <h3>Размеры</h3>
+                <table class="brandbook-table">
+                  <thead>
+                    <tr><th>Элемент</th><th>Шрифт</th><th>Размер</th><th>Начертание</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>H1 — заголовок страницы</td><td>Cormorant Garamond</td><td>48–72 px</td><td>Bold</td></tr>
+                    <tr><td>H2 — раздел</td><td>Cormorant Garamond</td><td>32–48 px</td><td>SemiBold</td></tr>
+                    <tr><td>H3 — подзаголовок</td><td>Cormorant Garamond</td><td>24–28 px</td><td>SemiBold</td></tr>
+                    <tr><td>Основной текст</td><td>Nunito Sans</td><td>16 px</td><td>Regular</td></tr>
+                    <tr><td>Подпись / метка</td><td>Nunito Sans</td><td>13 px</td><td>SemiBold</td></tr>
+                    <tr><td>Кнопка</td><td>Nunito Sans</td><td>15 px</td><td>SemiBold</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Голос бренда -->
+        <article class="brandbook-section" id="voice">
+          <h2 class="brandbook-section__title">Голос бренда</h2>
+          <div class="brandbook-section__content">
+            <div class="brandbook__grid">
+              <div class="brandbook__card">
+                <h3>Тон</h3>
+                <p>Тёплый, заботливый и вдохновляющий. Мы говорим спокойно и уверенно, без агрессивных продаж. Наш тон — как разговор с близким другом, который разбирается в натуральном уходе.</p>
+                <div class="voice-tags">
+                  <span>Тёплый</span>
+                  <span>Честный</span>
+                  <span>Вдохновляющий</span>
+                  <span>Заботливый</span>
+                </div>
+              </div>
+              <div class="brandbook__card">
+                <h3>Обращение</h3>
+                <p>Обращаемся на «вы» с маленькой буквы — уважительно, но без дистанции. Избегаем канцелярита и сложных терминов. Если используем научный термин — сразу объясняем простыми словами.</p>
+              </div>
+              <div class="brandbook__card brandbook__card--wide">
+                <h3>Примеры фраз</h3>
+                <div class="phrase-examples">
+                  <blockquote>«Природа в каждой капле — мы бережно сохраняем её силу для вашей кожи.»</blockquote>
+                  <blockquote>«Каждый крем создан вручную — с вниманием, которого заслуживает ваша кожа.»</blockquote>
+                  <blockquote>«Мы выбираем только то, что готовы использовать сами — чистое, органическое, честное.»</blockquote>
+                  <blockquote class="phrase-examples__bad">✗ «Купите сейчас! Лучший крем по суперцене!!!» — слишком агрессивно, не в стиле бренда.</blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Применение -->
+        <article class="brandbook-section" id="application">
+          <h2 class="brandbook-section__title">Правила применения</h2>
+          <div class="brandbook-section__content">
+            <div class="brandbook__grid">
+              <div class="brandbook__card">
+                <h3>Логотип на фоне</h3>
+                <ul class="brandbook-list">
+                  <li><strong>Светлый фон</strong> (белый, бежевый) — логотип в Forest Green (#5C7A56)</li>
+                  <li><strong>Тёмный/зелёный фон</strong> — логотип в белом или Pure White (#FAFAF7)</li>
+                  <li><strong>Фотография</strong> — только на однородных участках без мелких деталей</li>
+                  <li>Запрещено: тени, обводки, градиенты на логотипе, произвольные цвета</li>
+                </ul>
+                <div class="logo-bg-demo">
+                  <div class="logo-bg-demo__item logo-bg-demo__item--light">
+                    <img src="public/images/logo.png" alt="">
+                    <span>Светлый фон</span>
+                  </div>
+                  <div class="logo-bg-demo__item logo-bg-demo__item--dark">
+                    <img src="public/images/logo.png" alt="" style="filter:brightness(10);">
+                    <span>Тёмный фон</span>
+                  </div>
+                </div>
+              </div>
+              <div class="brandbook__card">
+                <h3>Фотографии</h3>
+                <p>Используйте натуральные, светлые изображения с мягким освещением:</p>
+                <ul class="brandbook-list">
+                  <li>Цветы, травы, листья, полевые пейзажи</li>
+                  <li>Ингредиенты крупным планом (масла, воск, глина)</li>
+                  <li>Производство: руки мастеров, лаборатория, плантации</li>
+                  <li>Избегать: неон, резкие контрасты, стоковые «глянцевые» фото</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 class="brandbook-subtitle">Носители фирменного стиля</h3>
+            <div class="brandbook__gallery brandbook__gallery--carriers">
+              <div class="brandbook__gallery-item" style="background:linear-gradient(135deg,#E8F0E6,#A8C5A0);">
+                <span>Упаковка</span>
+                <small>Матовое стекло, крафт, минимум пластика</small>
+              </div>
+              <div class="brandbook__gallery-item" style="background:linear-gradient(135deg,#F5F0E8,#E8DFD0);">
+                <span>Униформа</span>
+                <small>Натуральные ткани, логотип на груди</small>
+              </div>
+              <div class="brandbook__gallery-item" style="background:linear-gradient(135deg,#5C7A56,#3D4F3A);color:#FAFAF7;">
+                <span>Транспорт</span>
+                <small>Брендирование фургонов доставки</small>
+              </div>
+              <div class="brandbook__gallery-item" style="background:linear-gradient(135deg,#FAFAF7,#E8F0E6);">
+                <span>Веб</span>
+                <small>Сайт, соцсети, email-рассылки</small>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="brandbook__download">
+          <a href="#" class="btn btn--primary" id="downloadBrandbook">Скачать брендбук (PDF)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo"><span class="logo__text">Pure<em>Bloom</em></span></a>
+        <p>Натуральная косметика.<br>Природа в каждой капле.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Подвал">
+        <a href="about.html">О нас</a>
+        <a href="products.html">Продукция</a>
+        <a href="production.html">Производство</a>
+        <a href="brandbook.html">Брендбук</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="footer__social">
+        <a href="#" class="footer__social-link" aria-label="VK"><svg viewBox="0 0 24 24" fill="none"><path d="M3 7H6.5C7 12 9 14 11 14V7H14V11.5C16 9.5 17.5 7 17.5 7H21C21 7 18.5 12 16 13.5C18.5 15 21 19 21 19H17.5C17.5 19 15.5 15 14 13.5V19H11V7H3Z" fill="currentColor"/></svg></a>
+        <a href="#" class="footer__social-link" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="none"><path d="M22 4L2 11L9 13L11 20L14 15L19 19L22 4Z" stroke="currentColor" stroke-width="2"/></svg></a>
+        <a href="#" class="footer__social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/></svg></a>
+      </div>
+      <p class="footer__copy">&copy; 2025 PureBloom. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
